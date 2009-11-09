@@ -1,0 +1,1284 @@
+[{
+    "pk": 1,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "MyShare",
+        "url": "http://myshare.url.com.tw/index.php?func=newurl&url=%(url)s&desc=%(title)s",
+        "image": "myshare.png",
+        "js": ""
+    }
+},
+{
+    "pk": 2,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Wikio IT",
+        "url": "http://www.wikio.it/vote?url=%(url)s",
+        "image": "wikio.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 3,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Leonaut",
+        "url": "http://www.leonaut.com/submit.php?url=%(url)s&title=%(title)s",
+        "image": "leonaut.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 4,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Tipd",
+        "url": "http://tipd.com/submit.php?url=%(url)s",
+        "image": "tipd.png",
+        "js": ""
+    }
+},
+{
+    "pk": 5,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Faves",
+        "url": "http://faves.com/Authoring.aspx?u=%(url)s&title=%(title)s",
+        "image": "bluedot.png",
+        "js": ""
+    }
+},
+{
+    "pk": 6,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "kick.ie",
+        "url": "http://kick.ie/submit/?url=%(url)s&title=%(title)s",
+        "image": "kickit.png",
+        "js": ""
+    }
+},
+{
+    "pk": 7,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Pownce",
+        "url": "http://pownce.com/send/link/?url=%(url)s&note_body=%(title)s&note_to=all",
+        "image": "pownce.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 8,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Netvibes",
+        "url": "http://www.netvibes.com/share?title=%(title)s&url=%(url)s",
+        "image": "netvibes.png",
+        "js": ""
+    }
+},
+{
+    "pk": 9,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "HealthRanker",
+        "url": "http://healthranker.com/submit.php?url=%(url)s&title=%(title)s",
+        "image": "healthranker.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 10,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Reddit",
+        "url": "http://reddit.com/submit?url=%(url)s&title=%(title)s",
+        "image": "reddit.png",
+        "js": ""
+    }
+},
+{
+    "pk": 11,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "\u041c\u0438\u0441\u0442\u0435\u0440 \u0412\u043e\u043d\u0433",
+        "title": "MisterWong.RU",
+        "url": "http://www.mister-wong.ru/addurl/?bm_url=%(url)s&bm_description=%(title)s&plugin=soc",
+        "image": "misterwong.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 12,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Smarking",
+        "url": "http://smarking.com/editbookmark/?url=%(url)s&title=%(title)s",
+        "image": "smarking.png",
+        "js": ""
+    }
+},
+{
+    "pk": 13,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "blogmarks",
+        "url": "http://blogmarks.net/my/new.php?mini=1&simple=1&url=%(url)s&title=%(title)s",
+        "image": "blogmarks.png",
+        "js": ""
+    }
+},
+{
+    "pk": 14,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "TailRank",
+        "url": "http://tailrank.com/share/?text=&link_href=%(url)s&title=%(title)s",
+        "image": "tailrank.png",
+        "js": ""
+    }
+},
+{
+    "pk": 15,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Propeller",
+        "url": "http://www.propeller.com/submit/?url=%(url)s",
+        "image": "propeller.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 16,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Blogsvine",
+        "url": "http://blogsvine.com/submit.php?url=%(url)s",
+        "image": "blogsvine.png",
+        "js": ""
+    }
+},
+{
+    "pk": 17,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Bumpzee",
+        "url": "http://www.bumpzee.com/bump.php?u=%(url)s",
+        "image": "bumpzee.png",
+        "js": ""
+    }
+},
+{
+    "pk": 18,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Shadows",
+        "url": "http://www.shadows.com/features/tcr.htm?url=%(url)s&title=%(title)s",
+        "image": "shadows.png",
+        "js": ""
+    }
+},
+{
+    "pk": 19,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Spurl",
+        "url": "http://www.spurl.net/spurl.php?url=%(url)s&title=%(title)s",
+        "image": "spurl.png",
+        "js": ""
+    }
+},
+{
+    "pk": 20,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "muti",
+        "url": "http://www.muti.co.za/submit?url=%(url)s&title=%(title)s",
+        "image": "muti.png",
+        "js": ""
+    }
+},
+{
+    "pk": 21,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Netvouz",
+        "url": "http://www.netvouz.com/action/submitBookmark?url=%(url)s&title=%(title)s&popup=no",
+        "image": "netvouz.png",
+        "js": ""
+    }
+},
+{
+    "pk": 22,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "description",
+        "title": "Book.mark.hu",
+        "url": "http://book.mark.hu/bookmarks.php/?action=add&address=%(url)s&title=%(title)s",
+        "image": "bookmarkhu.png",
+        "js": ""
+    }
+},
+{
+    "pk": 23,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Webnews.de",
+        "url": "http://www.webnews.de/einstellen?url=%(url)s&title=%(title)s",
+        "image": "webnews.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 24,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Gwar",
+        "url": "http://www.gwar.pl/DodajGwar.html?u=%(url)s",
+        "image": "gwar.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 25,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "BlinkList",
+        "url": "http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=%(url)s&Title=%(title)s",
+        "image": "blinklist.png",
+        "js": ""
+    }
+},
+{
+    "pk": 26,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "SalesMarks",
+        "url": "http://salesmarks.com/submit?edit[url]=%(url)s&edit[title]=%(title)s",
+        "image": "salesmarks.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 27,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Xerpi",
+        "url": "http://www.xerpi.com/block/add_link_from_extension?url=%(url)s&title=%(title)s",
+        "image": "xerpi.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 28,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Wykop",
+        "url": "http://www.wykop.pl/dodaj?url=%(url)s",
+        "image": "wykop.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 29,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Webride",
+        "url": "http://webride.org/discuss/split.php?uri=%(url)s&title=%(title)s",
+        "image": "webride.png",
+        "js": ""
+    }
+},
+{
+    "pk": 30,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "\u042f\u043d\u0434\u0435\u043a\u0441.\u0417\u0430\u043a\u043b\u0430\u0434\u043a\u0438",
+        "title": "Yandex",
+        "url": "http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&lurl=%(url)s&lname=%(title)s",
+        "image": "yandex.ico",
+        "js": ""
+    }
+},
+{
+    "pk": 31,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Rec6",
+        "url": "http://www.syxt.com.br/rec6/link.php?url=%(url)s&=%(title)s",
+        "image": "rec6.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 32,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Blogosphere News",
+        "url": "http://www.blogospherenews.com/submit.php?url=%(url)s&title=%(title)s",
+        "image": "blogospherenews.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 33,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Segnalo",
+        "url": "http://segnalo.alice.it/post.html.php?url=%(url)s&title=%(title)s",
+        "image": "segnalo.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 34,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Simpy",
+        "url": "http://www.simpy.com/simpy/LinkAdd.do?href=%(url)s&title=%(title)s",
+        "image": "simpy.png",
+        "js": ""
+    }
+},
+{
+    "pk": 35,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "YCombinator",
+        "url": "http://news.ycombinator.com/submitlink?u=%(url)s&t=%(title)s",
+        "image": "yc.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 36,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "BlogMemes Fr",
+        "url": "http://www.blogmemes.fr/post.php?url=%(url)s&title=%(title)s",
+        "image": "blogmemes.png",
+        "js": ""
+    }
+},
+{
+    "pk": 37,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Live",
+        "url": "https://favorites.live.com/quickadd.aspx?marklet=1&url=%(url)s&title=%(title)s",
+        "image": "live.png",
+        "js": ""
+    }
+},
+{
+    "pk": 38,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "blinkbits",
+        "url": "http://www.blinkbits.com/bookmarklets/save.php?v=1&source_url=%(url)s&title=%(title)s&body=%(title)s",
+        "image": "blinkbits.png",
+        "js": ""
+    }
+},
+{
+    "pk": 39,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Slashdot",
+        "url": "http://slashdot.org/bookmark.pl?title=%(title)s&url=%(url)s",
+        "image": "slashdot.png",
+        "js": ""
+    }
+},
+{
+    "pk": 40,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "blogtercimlap",
+        "url": "http://cimlap.blogter.hu/index.php?action=suggest_link&title=%(title)s&url=%(url)s",
+        "image": "blogter.png",
+        "js": ""
+    }
+},
+{
+    "pk": 41,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "BarraPunto",
+        "url": "http://barrapunto.com/submit.pl?subj=%(title)s&story=%(url)s",
+        "image": "barrapunto.png",
+        "js": ""
+    }
+},
+{
+    "pk": 42,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "laaik.it",
+        "url": "http://laaik.it/NewStoryCompact.aspx?uri=%(url)s&headline=%(title)s&cat=5e082fcc-8a3b-47e2-acec-fdf64ff19d12",
+        "image": "laaikit.png",
+        "js": ""
+    }
+},
+{
+    "pk": 43,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Facebook",
+        "url": "http://www.facebook.com/share.php?u=%(url)s&t=%(title)s",
+        "image": "facebook.png",
+        "js": ""
+    }
+},
+{
+    "pk": 44,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "YahooMyWeb",
+        "url": "http://myweb2.search.yahoo.com/myresults/bookmarklet?u=%(url)s&=%(title)s",
+        "image": "yahoomyweb.png",
+        "js": ""
+    }
+},
+{
+    "pk": 45,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "SphereIt",
+        "url": "http://www.sphere.com/search?q=sphereit:%(url)s&title=%(title)s",
+        "image": "sphere.png",
+        "js": ""
+    }
+},
+{
+    "pk": 46,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "Digg",
+        "title": "Digg",
+        "url": "http://digg.com/submit?phase=2&url=%(url)s&title=%(title)s",
+        "image": "digg.png",
+        "js": ""
+    }
+},
+{
+    "pk": 47,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Global Grind",
+        "url": "http://globalgrind.com/submission/submit.aspx?url=%(url)s&type=Article&title=%(title)s",
+        "image": "globalgrind.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 48,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Wikio",
+        "url": "http://www.wikio.com/vote?url=%(url)s",
+        "image": "wikio.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 49,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "MisterWong",
+        "url": "http://www.mister-wong.com/addurl/?bm_url=%(url)s&bm_description=%(title)s&plugin=soc",
+        "image": "misterwong.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 50,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "eKudos",
+        "url": "http://www.ekudos.nl/artikel/nieuw?url=%(url)s&title=%(title)s",
+        "image": "ekudos.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 51,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Fleck",
+        "url": "http://extension.fleck.com/?v=b.0.804&url=%(url)s",
+        "image": "fleck.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 52,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "description",
+        "title": "scuttle",
+        "url": "http://www.scuttle.org/bookmarks.php/maxpower?action=add&address=%(url)s&title=%(title)s",
+        "image": "scuttle.png",
+        "js": ""
+    }
+},
+{
+    "pk": 53,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "StumbleUpon",
+        "url": "http://www.stumbleupon.com/submit?url=%(url)s&title=%(title)s",
+        "image": "stumbleupon.png",
+        "js": ""
+    }
+},
+{
+    "pk": 54,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Tumblr",
+        "url": "http://www.tumblr.com/share?v=3&u=%(url)s&t=%(title)s&s=",
+        "image": "tumblr.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 55,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Ma.gnolia",
+        "url": "http://ma.gnolia.com/bookmarklet/add?url=%(url)s&title=%(title)s",
+        "image": "magnolia.png",
+        "js": ""
+    }
+},
+{
+    "pk": 56,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "bobrdobr",
+        "title": "bobrdobr",
+        "url": "http://bobrdobr.ru/addext.html?url=%(url)s&title=%(title)s",
+        "image": "bobrdobr.ico",
+        "js": ""
+    }
+},
+{
+    "pk": 57,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "NewsVine",
+        "url": "http://www.newsvine.com/_tools/seed&save?u=%(url)s&h=%(title)s",
+        "image": "newsvine.png",
+        "js": ""
+    }
+},
+{
+    "pk": 58,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "connotea",
+        "url": "http://www.connotea.org/addpopup?continue=confirm&uri=%(url)s&title=%(title)s",
+        "image": "connotea.png",
+        "js": ""
+    }
+},
+{
+    "pk": 59,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Meneame",
+        "url": "http://meneame.net/submit.php?url=%(url)s",
+        "image": "meneame.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 60,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Upnews",
+        "url": "http://www.upnews.it/submit?url=%(url)s&title=%(title)s",
+        "image": "upnews.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 61,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "Twitter",
+        "title": "TwitThis",
+        "url": "http://twitter.com/home?status=%(url)s",
+        "image": "twitter.ico",
+        "js": ""
+    }
+},
+{
+    "pk": 62,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Yigg",
+        "url": "http://yigg.de/neu?exturl=%(url)s&exttitle=%(title)s",
+        "image": "yiggit.png",
+        "js": ""
+    }
+},
+{
+    "pk": 63,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Taggly",
+        "url": "http://taggly.com/bookmarks.php/pass?action=add&address=",
+        "image": "taggly.png",
+        "js": ""
+    }
+},
+{
+    "pk": 64,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "Memori",
+        "title": "memori",
+        "url": "http://memori.ru/link/?sm=1&u_data[url]=%(url)s&u_data[name]=%(title)s",
+        "image": "memori.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 65,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "description",
+        "title": "DotNetKicks",
+        "url": "http://www.dotnetkicks.com/kick/?url=%(url)s&title=%(title)s",
+        "image": "dotnetkicks.png",
+        "js": ""
+    }
+},
+{
+    "pk": 66,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "ThisNext",
+        "url": "http://www.thisnext.com/pick/new/submit/sociable/?url=%(url)s&name=%(title)s",
+        "image": "thisnext.png",
+        "js": ""
+    }
+},
+{
+    "pk": 67,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Fark",
+        "url": "http://cgi.fark.com/cgi/fark/farkit.pl?h=%(title)s&u=%(url)s",
+        "image": "fark.png",
+        "js": ""
+    }
+},
+{
+    "pk": 68,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "feedmelinks",
+        "url": "http://feedmelinks.com/categorize?from=toolbar&op=submit&url=%(url)s&name=%(title)s",
+        "image": "feedmelinks.png",
+        "js": ""
+    }
+},
+{
+    "pk": 69,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "De.lirio.us",
+        "url": "http://de.lirio.us/rubric/post?uri=%(url)s;title=%(title)s;when_done=go_back",
+        "image": "delirious.png",
+        "js": ""
+    }
+},
+{
+    "pk": 70,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Mixx",
+        "url": "http://www.mixx.com/submit?page_url=%(url)s&title=%(title)s",
+        "image": "mixx.png",
+        "js": ""
+    }
+},
+{
+    "pk": 71,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Haohao",
+        "url": "http://www.haohaoreport.com/submit.php?url=%(url)s&title=%(title)s",
+        "image": "haohao.png",
+        "js": ""
+    }
+},
+{
+    "pk": 72,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Sphinn",
+        "url": "http://sphinn.com/submit.php?url=%(url)s&title=%(title)s",
+        "image": "sphinn.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 73,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "Google",
+        "title": "Google",
+        "url": "http://www.google.com/bookmarks/mark?op=edit&bkmk=%(url)s&title=%(title)s",
+        "image": "googlebookmark.png",
+        "js": ""
+    }
+},
+{
+    "pk": 74,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "description",
+        "title": "DZone",
+        "url": "http://www.dzone.com/links/add.html?url=%(url)s&title=%(title)s",
+        "image": "dzone.png",
+        "js": ""
+    }
+},
+{
+    "pk": 75,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "BlogMemes",
+        "url": "http://www.blogmemes.net/post.php?url=%(url)s&title=%(title)s",
+        "image": "blogmemes.png",
+        "js": ""
+    }
+},
+{
+    "pk": 76,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Socialogs",
+        "url": "http://socialogs.com/add_story.php?story_url=%(url)s&story_title=%(title)s",
+        "image": "socialogs.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 77,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "co.mments",
+        "url": "http://co.mments.com/track?url=%(url)s&title=%(title)s",
+        "image": "co.mments.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 78,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Hemidemi",
+        "url": "http://www.hemidemi.com/user_bookmark/new?title=%(title)s&url=%(url)s",
+        "image": "hemidemi.png",
+        "js": ""
+    }
+},
+{
+    "pk": 79,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Wikio FR",
+        "url": "http://www.wikio.fr/vote?url=%(url)s",
+        "image": "wikio.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 80,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Linkter",
+        "url": "http://www.linkter.hu/index.php?action=suggest_link&url=%(url)s&title=%(title)s",
+        "image": "linkter.png",
+        "js": ""
+    }
+},
+{
+    "pk": 81,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Technorati",
+        "url": "http://technorati.com/faves?add=%(url)s",
+        "image": "technorati.png",
+        "js": ""
+    }
+},
+{
+    "pk": 82,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Kirtsy",
+        "url": "http://www.kirtsy.com/submit.php?url=%(url)s&title=%(title)s",
+        "image": "kirtsy.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 83,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "MisterWong.DE",
+        "url": "http://www.mister-wong.de/addurl/?bm_url=%(url)s&bm_description=%(title)s&plugin=soc",
+        "image": "misterwong.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 84,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "NuJIJ",
+        "url": "http://nujij.nl/jij.lynkx?t=%(title)s&u=%(url)s",
+        "image": "nujij.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 85,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "PlugIM",
+        "url": "http://www.plugim.com/submit?url=%(url)s&title=%(title)s",
+        "image": "plugim.png",
+        "js": ""
+    }
+},
+{
+    "pk": 86,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "BlogMemes Jp",
+        "url": "http://www.blogmemes.jp/post.php?url=%(url)s&title=%(title)s",
+        "image": "blogmemes.png",
+        "js": ""
+    }
+},
+{
+    "pk": 87,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "LinkedIn",
+        "url": "http://www.linkedin.com/shareArticle?mini=true&url=%(url)s&title=%(title)s&source=%(source)s&summary=%(excerpt)s",
+        "image": "linkedin.png",
+        "js": ""
+    }
+},
+{
+    "pk": 88,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "Print this article!",
+        "title": "Print",
+        "url": "javascript:window.print();",
+        "image": "printer.png",
+        "js": ""
+    }
+},
+{
+    "pk": 89,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "del.icio.us",
+        "url": "http://del.icio.us/post?url=%(url)s&title=%(title)s",
+        "image": "delicious.png",
+        "js": ""
+    }
+},
+{
+    "pk": 90,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Internetmedia",
+        "url": "http://internetmedia.hu/submit.php?url=%(url)s",
+        "image": "im.png",
+        "js": ""
+    }
+},
+{
+    "pk": 91,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Ping.fm",
+        "url": "http://ping.fm/ref/?link=%(url)s&title=%(title)s",
+        "image": "ping.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 92,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "BlogMemes Sp",
+        "url": "http://www.blogmemes.com/post.php?url=%(url)s&title=%(title)s",
+        "image": "blogmemes.png",
+        "js": ""
+    }
+},
+{
+    "pk": 93,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "Yahoo! Buzz",
+        "title": "YahooBuzz",
+        "url": "http://buzz.yahoo.com/submit/?submitUrl=%(url)s&submitHeadline=%(title)s&submitSummary=%(excerpt)s&submitCategory=science&submitAssetType=text",
+        "image": "yahoobuzz.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 94,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Design Float",
+        "url": "http://www.designfloat.com/submit.php?url=%(url)s&title=%(title)s",
+        "image": "designfloat.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 95,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "BlogMemes Cn",
+        "url": "http://www.blogmemes.cn/post.php?url=%(url)s&title=%(title)s",
+        "image": "blogmemes.png",
+        "js": ""
+    }
+},
+{
+    "pk": 96,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Wists",
+        "url": "http://wists.com/s.php?c=&r=%(url)s&title=%(title)s",
+        "image": "wists.png",
+        "js": ""
+    }
+},
+{
+    "pk": 97,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Symbaloo",
+        "url": "http://www.symbaloo.com/nl/add/url=%(url)s&title=%(title)s&icon=http%3A//static01.symbaloo.com/_img/favicon.png",
+        "image": "symbaloo.png",
+        "js": ""
+    }
+},
+{
+    "pk": 98,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "LinkaGoGo",
+        "url": "http://www.linkagogo.com/go/AddNoPopup?url=%(url)s&title=%(title)s",
+        "image": "linkagogo.png",
+        "js": ""
+    }
+},
+{
+    "pk": 99,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "N4G",
+        "url": "http://www.n4g.com/tips.aspx?url=%(url)s&title=%(title)s",
+        "image": "n4g.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 100,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Scoopeo",
+        "url": "http://www.scoopeo.com/scoop/new?newurl=%(url)s&title=%(title)s",
+        "image": "scoopeo.png",
+        "js": ""
+    }
+},
+{
+    "pk": 101,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Ratimarks",
+        "url": "http://ratimarks.org/bookmarks.php/?action=add&address=%(url)s&title=%(title)s",
+        "image": "ratimarks.png",
+        "js": ""
+    }
+},
+{
+    "pk": 102,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "IndianPad",
+        "url": "http://www.indianpad.com/submit.php?url=%(url)s",
+        "image": "indianpad.png",
+        "js": ""
+    }
+},
+{
+    "pk": 103,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "MySpace",
+        "url": "http://www.myspace.com/Modules/PostTo/Pages/?u=%(url)s&t=%(title)s",
+        "image": "myspace.png",
+        "js": ""
+    }
+},
+{
+    "pk": 104,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "GeenRedactie",
+        "url": "http://www.geenredactie.nl/submit?url=%(url)s&title=%(title)s",
+        "image": "geenredactie.png",
+        "js": ""
+    }
+},
+{
+    "pk": 105,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "Furl",
+        "url": "http://www.furl.net/storeIt.jsp?u=%(url)s&t=%(title)s",
+        "image": "furl.png",
+        "js": ""
+    }
+},
+{
+    "pk": 106,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "LinkArena",
+        "url": "http://linkarena.com/bookmarks/addlink/?url=%(url)s&title=%(title)s",
+        "image": "linkarena.gif",
+        "js": ""
+    }
+},
+{
+    "pk": 107,
+    "model": "social_bookmarking.bookmark",
+    "fields": {
+        "status": 2,
+        "description": "",
+        "title": "ppnow",
+        "url": "http://www.ppnow.net/submit.php?url=%(url)s",
+        "image": "ppnow.png",
+        "js": ""
+    }
+}]
