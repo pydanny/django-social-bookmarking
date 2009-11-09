@@ -64,7 +64,7 @@ Todo
  * Add more social networking sites
  * Validation existing social networking sites. Sounds like a test to me!
  * Full suite of tests against each site stored in the fixture.
-
+ * Maybe some caching stuff?
 
 Other Django Social Bookmarking applications
 --------------------------------------------
