@@ -2,6 +2,8 @@
 Django Social Bookmarking
 =========================
 
+**Warning**: Not ready for prime time. Doesn't handle adding of http prefix.
+
 A common use case in building applications is to provide links to social networking services. There are 
 other Django apps that do this already, but they suffer from having the links stored statically and/or
 have licenses we can't use effectively in a US Federal government environment.
