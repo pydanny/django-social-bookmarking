@@ -1,9 +1,16 @@
 {% block body%}
+{% load social_bookmarking_tags %}
 <h1>
     Django Social Bookmarking Test
 </h1>
 
-blah blah blah
+
+
+
+{% show_bookmarks "my page" "http://nasascience.nasa.gov" %}
+
+
+
 
 
 {% endblock %}

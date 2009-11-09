@@ -1,0 +1,17 @@
+<div class="social-bookmarking">
+    Share:
+    
+    {% for bookmark in bookmarks %}
+        <span class="bookmark" id="{{ bookmark.title|slugify }}">
+            {% if book.js %}
+                <script type="javascript">
+                    {{ bookmark.js|safe }}
+                </script>
+            {% endif %}
+                <a href="{{ bookmark.link }}" title="{{ bookmark.title }}" rel="nofollow">
+                    <img src="{{ MEDIA_URL }}social_bookmarking/img/{{ bookmark.image }}" width="16" height="16" alt="{{ bookmark.title }}" border="0" />
+                </a>          
+        </span>
+    {% endfor %}
+        
+</div>

@@ -1,5 +1,6 @@
 #!python
-# coding: utf-8
+
+from string import Template
 
 from django.template import Library
 from django.utils.http import urlquote
@@ -20,14 +21,14 @@ def show_bookmarks(context, title, object_or_url, description=""):
     bookmarks = Bookmark.objects.filter(status=2).values()
     
     for bookmark in bookmarks:
-        title = urlquote(bookmark['title'])
-        url = urlquote(bookmark['url'])        
-        description = urlquote(bookmark['description'])                
-        bookmark['link'] = 'blag'
-        bookmark['link'] = url % {'title': unicode(title, errors='ignore'),
-                                 'url': unicode(url, errors='ignore')
-         
-                                  }
-
+        #bkmk = {}
+        bookmark['description'] = description     
+        bookmark['link'] = bookmark['url'] % {'title': urlquote(bookmark['title']),
+                                        'url': urlquote(url),
+                                        'description': urlquote(description)
+                                       }
+        
+        #bookmarks.append(bkmk)
+        
     return {'bookmarks':bookmarks, 'MEDIA_URL': context['MEDIA_URL']}
         
