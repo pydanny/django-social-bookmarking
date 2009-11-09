@@ -2,6 +2,7 @@ include CONTRIBUTORS.txt
 include LICENSE.txt
 include MANIFEST.in
 include README.rst
+recursive-include social_bookmarking/fixtures *
 recursive-include social_bookmarking/media *
 recursive-include social_bookmarking/templates *
-recursive-include social_bookmarking/tests/test_project/test_app/templates *
+recursive-include social_bookmarking/test_project/test_app/templates *
