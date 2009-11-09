@@ -18,14 +18,6 @@ This solution provides the following:
  
 Installation
 ------------
-
-Via pip::
-
-    easy_install django-social-bookmarking
-    
-Via easy_setup::
-
-    pip install django-social-bookmarking
     
 Add *'social_bookmarking'* to your INSTALLED_APPS in settings.py::
 
