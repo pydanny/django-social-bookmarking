@@ -28,6 +28,13 @@ Add *'social_bookmarking'* to your INSTALLED_APPS in settings.py::
         'social_bookmarking',
         )
         
+If you have not yet done so, add '*django.core.context_processors.request*'  to the TEMPLATE_CONTEXT_PROCESSORS in your settings.py file::
+
+    TEMPLATE_CONTEXT_PROCESSORS = (
+        ...
+        'django.core.context_processors.request',
+        )
+        
 Synch the database::
 
     ./manage.py syncdb
