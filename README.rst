@@ -2,9 +2,10 @@
 Django Social Bookmarking
 =========================
 
-A common use case in building applications is to provide links to social networking services. There are 
-other Django apps that do this already, but they suffer from having the links stored statically and/or
-have licenses we can't use effectively in a US Federal government environment.
+A common use case in building applications is to provide links to social 
+networking services. There are other Django apps that do this already, but they
+suffer from having the links stored statically and/or have licenses we can't use
+effectively in a US Federal government environment.
 
 This solution provides the following:
 
@@ -28,7 +29,8 @@ Add *'social_bookmarking'* to your INSTALLED_APPS in settings.py::
         'social_bookmarking',
         )
         
-If you have not yet done so, add '*django.core.context_processors.request*'  to the TEMPLATE_CONTEXT_PROCESSORS in your settings.py file::
+If you have not yet done so, add '*django.core.context_processors.request*'  to 
+the TEMPLATE_CONTEXT_PROCESSORS in your settings.py file::
 
     TEMPLATE_CONTEXT_PROCESSORS = (
         ...
@@ -43,8 +45,8 @@ Load the fixtures::
 
     ./manage.py loaddata <location-of-django-social-bookmarking>/social_bookmarking/fixtures/bookmarks.json
     
-Depending on your setup, you may need to copy the media files to your local media 
-folder::
+Depending on your setup, you may need to copy the media files to your local 
+media folder::
 
     cp -R <location-of-django-social-bookmarking>/social_bookmarking/media/social_bookmarking <my-project>/media/
     
