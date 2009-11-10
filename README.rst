@@ -2,6 +2,8 @@
 Django Social Bookmarking
 =========================
 
+.. contents:: Table of Contents
+
 A common use case in building applications is to provide links to social 
 networking services. There are other Django apps that do this already, but they
 suffer from having the links stored statically and/or have licenses we can't use
@@ -60,6 +62,11 @@ At the top of your page::
     {% load social_bookmarking_tags %}
     
     {% show_bookmarks object.title 'full-http-path-to-object' object.description %}
+    
+    -- or --
+    
+    {% show_bookmarks object.title object object.description %}    
+    
     
 **Note**: The ``object.description`` field is optional.
 

@@ -1,4 +1,3 @@
-import os.path
 from sys import stderr
 
 from django.template import Library
