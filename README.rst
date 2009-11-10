@@ -50,6 +50,8 @@ media folder::
 
     cp -R <location-of-django-social-bookmarking>/social_bookmarking/media/social_bookmarking <my-project>/media/
     
+----    
+    
 Usage
 -----
 
@@ -60,6 +62,31 @@ At the top of your page::
     {% show_bookmarks object.title 'full-http-path-to-object' object.description %}
     
 **Note**: The ``object.description`` field is optional.
+
+----
+
+Customizations
+--------------
+
+Django Social Bookmarking is designed to be easily customizable.
+
+Skin Customizations
+^^^^^^^^^^^^^^^^^^^
+
+The most frequent customization will be on how links are displayed. Create a 
+directory called ``social_bookmarking`` in your project's template directory. 
+Then copy the HTML file ``social_bookmarking/templates/social_bookmarking/links.html`` 
+to this project directory.
+
+CSS customizations
+^^^^^^^^^^^^^^^^^^
+
+The following classes and IDS are attached to the skin::
+
+    div.social-bookmarking
+        span.bookmark #bookmark.title|slugify
+        
+Other classes and IDs will be assigned as requested by competent CSS designers.
 
 Todo
 -----

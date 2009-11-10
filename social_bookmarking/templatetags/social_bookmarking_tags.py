@@ -1,4 +1,5 @@
-from os.path import join
+import os.path
+from sys import stderr
 
 from django.template import Library
 from django.utils.http import urlquote
@@ -19,7 +20,7 @@ def show_bookmarks(context, title, object_or_url, description=""):
     if isinstance(object_or_url, (str, unicode)):
         url = unicode(object_or_url)
     else:
-        url = unicode(getattr(object_or_url, 'get_absolute_url')())
+        url = unicode(getattr(object_or_url, 'get_absolute_url')())        
         
     if not url.startswith('http'):
         # URL does not have leading http so we need to find the http host
@@ -48,8 +49,8 @@ def show_bookmarks(context, title, object_or_url, description=""):
                     Please add 'django.core.context_processors.request' to the
                     TEMPLATE_CONTEXT_PROCESSORS in your settings.py file."""
             raise NoRequestContextProcessorFound(msg)
-        
-        url = join(http_host, url)
+            
+        url = 'http://' + http_host + url
 
     bookmarks = Bookmark.objects.filter(status=2).values()
     
