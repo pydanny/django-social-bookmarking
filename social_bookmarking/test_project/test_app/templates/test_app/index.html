@@ -6,10 +6,19 @@
 
 {{ request.META.HTTP_HOST }}
 
-{% show_bookmarks "my page" "nasascience.nasa.gov" %}
+<dl>
+    <dt>request.path</dt>
+    <dd>{% show_bookmarks "my page" request.path %}</dd>
 
+    <dt>/</dt>
+    <dd>{% show_bookmarks "my page" "/" %}</dd>
 
+    <dt>/path/to/something</dt>
+    <dd>{% show_bookmarks "my page" "/path/to/something" %}</dd>
 
+    <dt>http://www.google.com/</dt>
+    <dd>{% show_bookmarks "my page" "http://www.google.com/" %}</dd>
+</dl>
 
 
 {% endblock %}
