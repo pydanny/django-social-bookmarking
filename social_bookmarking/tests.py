@@ -13,19 +13,9 @@ class TestBookmarks(TestCase):
         self.user = User(username="bookmark_user")
         self.user.save()
         
-        self.google_test = """<span class="bookmark" id="google">
-                
-                <a href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http%3A//python.org&amp;title=bookmark_user" title="Google" rel="nofollow">
-                    <img src="/media/social_bookmarking/img/googlebookmark.png" width="16" height="16" alt="Google" border="0" />
-                </a>
-        </span>"""
+        self.google_test = """<a href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http%3A//python.org&amp;title=bookmark_user" title="Google" rel="nofollow">"""
         
-        self.print_test = """<span class="bookmark" id="print">
-                
-                <a href="javascript:window.print();" title="Print" rel="nofollow">
-                    <img src="/media/social_bookmarking/img/printer.png" width="16" height="16" alt="Print" border="0" />
-                </a>
-        </span>"""
+        self.print_test = """<a href="javascript:window.print();" title="Print" rel="nofollow">"""
 
     
     def tearDown(self):
@@ -42,5 +32,5 @@ class TestBookmarks(TestCase):
         
         c = Context({'object':self.user, 'MEDIA_URL':settings.MEDIA_URL})
         html = template.render(c)
-        self.assertTrue(self.google_test in html)
+        self.assertTrue(self.google_test in html, html)
         self.assertTrue(self.print_test in html)        
