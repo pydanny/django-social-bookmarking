@@ -32,5 +32,5 @@ class TestBookmarks(TestCase):
         
         c = Context({'object':self.user, 'MEDIA_URL':settings.MEDIA_URL})
         html = template.render(c)
-        self.assertTrue(self.google_test in html, html)
+        self.assertTrue(self.google_test in html)
         self.assertTrue(self.print_test in html)        
